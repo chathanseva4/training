@@ -15,11 +15,14 @@
 #         run(n,i+1)
 
 def coin(coins,s):
+    
+    
     sol=[0]*(s+1)
     for i in range(1,s+1):
         sol[i]=float('inf')
         for c in coin:
             if res=sol[i-c]:
+                
                 sol[i]=min(sol[i],res+1)
     if sol[s]!=float('inf'):
         return sol[s]
