@@ -22,6 +22,7 @@ def coin(coins,s):
         sol[i]=float('inf')
         for c in coin:
             if res=sol[i-c]:
+                
                 sol[i]=min(sol[i],res+1)
     if sol[s]!=float('inf'):
         return sol[s]
