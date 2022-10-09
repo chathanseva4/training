@@ -15,6 +15,8 @@
 #         run(n,i+1)
 
 def coin(coins,s):
+    
+    
     sol=[0]*(s+1)
     for i in range(1,s+1):
         sol[i]=float('inf')
