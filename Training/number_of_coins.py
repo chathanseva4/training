@@ -8,7 +8,8 @@
 # def run(n,i):
 #     if(n%l[i] == 0):
 #         c+=n%l[i]
-#         return c 
+#         return c
+# no hash value here
 #     else:
 #         n=n-((n%i)*l[i])
 #         if(i==l-1): return c
