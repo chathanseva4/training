@@ -3,6 +3,9 @@ n=l.length()
 m=l[0]
 m_ind=0
 w=0
+
+print(w)
+
 last=0
 for i in range(1,n):
     if(l[i]<m):
@@ -21,6 +24,6 @@ if m_ind!=n-1:
         else:
             m=l[i]
 print(w)
-    
+
 
 
